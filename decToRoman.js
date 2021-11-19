@@ -9,8 +9,8 @@ function decimalRoman(num) {
   
   let romanNumeral = "";
   for (var i = 0; i < romanNum.length; i++) {
-    while (value >= dNum[i]) {
-      value -= dNum[i];
+    while (num >= dNum[i]) {
+      num -= dNum[i];
       romanNumeral += romanNum[i];
     }
   }
