@@ -4,7 +4,7 @@ romanNum = ["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"];
 dNum = [1000,900,500,400,100,90,50,40,10,9,5,4,1];
 
 function decimalRoman(num) {
-  if (isNaN) return "Un numero debe ser ingresado";
+  if (isNaN(num)) return "Un numero debe ser ingresado";
   if (num < 1 || num > 3999) return "Por favor, ingrese un numero entre 1 y 3999";
   
   let romanNumeral = "";
